@@ -1,0 +1,12 @@
+.Players{
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Players .PlayerList{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

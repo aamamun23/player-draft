@@ -1,0 +1,29 @@
+.header{
+  display: flex;
+  background-color: #000;
+}
+.header .header-left{
+  width: 30%;
+}
+.header .header-left a{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px 15px;
+  color: #fff;
+}
+.header .header-right{
+  width: 70%;
+}
+.header .header-right ul{
+  display: flex;
+}
+.header .header-right ul li{
+  list-style: none;
+}
+.header .header-right ul li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+}

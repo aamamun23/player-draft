@@ -1,0 +1,27 @@
+.singlePlayer{
+    flex-basis: 200px;
+    background-color: #ffcccc;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.singlePlayer h2{
+    font-size: 16px;
+}
+.singlePlayer img{
+    max-width: 90%;
+    align-self: center;
+}
+.singlePlayer button{
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
