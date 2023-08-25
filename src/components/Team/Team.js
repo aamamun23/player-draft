@@ -23,7 +23,7 @@ const Team = (props) => {
                     <div className="TeamPlayer">
                         <img src={player.image} alt="" />
                         <h3>{player.name}</h3>
-                        <p>Salary: ${player.salary}</p>
+                        <p className='text-warning'>Salary: ${player.salary}</p>
                     </div>
                 )
             }
