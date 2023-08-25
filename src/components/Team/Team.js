@@ -1,4 +1,5 @@
 import React from 'react';
+import './Team.css';
 
 const Team = (props) => {
     const team = props.team;
@@ -13,17 +14,21 @@ const Team = (props) => {
         
     }
     return (
+        <div className='MainTeam'>
+        <h2>Selected Team Members</h2>
+        <h4>Total Salary: ${salary}</h4>
         <div className='Team'>
-            <h2> ${salary}</h2>
             {
                 team.map((player) =>
                     <div className="TeamPlayer">
+                        <img src={player.image} alt="" />
                         <h3>{player.name}</h3>
-                        <p>${player.salary}</p>
+                        <p>Salary: ${player.salary}</p>
                     </div>
                 )
             }
 
+        </div>
         </div>
     );
 };

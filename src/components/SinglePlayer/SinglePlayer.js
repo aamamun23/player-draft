@@ -1,5 +1,5 @@
 import React from 'react';
-import './SinglePlayer.css'
+import './SinglePlayer.css';
 
 const SinglePlayer = (props) => {
     const player = props.player;

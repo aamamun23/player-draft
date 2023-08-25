@@ -1,0 +1,12 @@
+.Team{
+    width: 100%;
+}
+.Team .TeamPlayer{
+    width: 48%;
+    display: inline-block;
+    border: 1px solid darkgreen;
+    margin: 2px;
+}
+.Team .TeamPlayer img{
+    max-width: 200px;
+}

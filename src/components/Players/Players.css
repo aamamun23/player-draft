@@ -10,3 +10,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.Players .AddPlayer{
+    width: 30%;
+}
